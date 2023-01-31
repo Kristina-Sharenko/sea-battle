@@ -47,3 +47,6 @@ class Ship:
             ship_dots.append(Dot(cur_x, cur_y))
 
             return ship_dots
+
+        def shooten(self, shot):
+            return shot in self.dots
